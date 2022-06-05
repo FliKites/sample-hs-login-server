@@ -98,7 +98,7 @@ app.get('/servercallback', async function (req, res) {
     const verified = await hLogin.verifyResponseData(req.session.challenge);
     console.log('verified:', verified);
 
-    // If verified, store in session,
+    // If verified, store in session
     if (verified === true) {
       // Regenerate session when signing in
       // to prevent fixation
