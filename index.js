@@ -126,7 +126,7 @@ app.get('/logout', (req, res) => {
   });
 });
 
-// Start server
+// Start serverr
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
